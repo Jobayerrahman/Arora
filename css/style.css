@@ -60,4 +60,37 @@
     height: 430px;
     background: #fff;
     border-radius: 5px;
+    overflow-y: scroll;
+}
+
+.content-container .main-navbar{
+    margin: 5px;
+    border-radius: 5px;
+    background: rgba(127,174,244,1);
+}
+
+.content-container .main-navbar .navbar-collapse ul{
+    text-align: center;
+}
+
+.content-container .main-navbar .navbar-collapse li>a{
+    color: #fff !important;
+}
+
+.content-container .content-bannar{
+    margin: 10px;
+    height: 180px;
+}
+
+.carousel .carousel-indicators button {
+    width: 10px;
+   height: 10px;
+   border-radius: 100% !important;
+ }
+
+.content-container .content-bannar .carousel-inner img{
+    max-width: -webkit-fill-available;
+    height: 180px;
+    border-radius: 10px;
+    object-fit: cover;
 }
